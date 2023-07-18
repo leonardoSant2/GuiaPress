@@ -1,0 +1,22 @@
+<%- include ('../../partials/header.ejs') %>
+<%- include ('../../partials/navbar.ejs') %>
+
+<div class="container">
+    <div class="card mt-5">
+        <div class="card-header">
+            Atualizar usuário
+        </div>
+        <div  class="card-body d-grid gap-2">
+            <form action="/admin/users/update" method="post">
+                <input class="form-control" name="email" type="email" placeholder="Novo E-mail"><br>
+                <input type="password" name="password" class="formcontroll" placeholder="Nova senha" ><br>
+                <input type="hidden" name="id" value="<%= user.id %>">    
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-success">Atualizar</button>
+                  </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<%- include ('../../partials/footer.ejs') %>
