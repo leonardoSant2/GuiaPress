@@ -1,13 +1,13 @@
 <h1 align="center">:file_cabinet: README.md</h1>
 
 ## :memo: Descrição
-API REST de Games com CRUD completo
+Blog com painel administrativo, sistema de login, editor de texto e CRUD completo
 
 ## :books: Funcionalidades
 * <b>Listar, criar, editar, deletar e atualizar artigos </b>
 * <b>Listar, criar, editar, deletar e atualizar categorias </b>
-* <b>Login, logout, controle de sessão e acesso do usuário </b>
-* <b>Listar, criar, editar, deletar, atualizar e autenticação de usuários </b>
+* <b>Login, logout e controle de sessão e acesso do usuário </b>
+* <b>Listar, criar, editar, deletar e atualizar dados do usuário</b>
 
 ## :wrench: Tecnologias utilizadas
 * Express.js
@@ -17,6 +17,7 @@ API REST de Games com CRUD completo
 * Bcrypt.js
 * EJS
 * CSS
+* TinyMCE
 
 ## :rocket: Rodando o projeto
 Para rodar o repositório é necessário clonar o mesmo e dar os seguintes comandos para iniciar o projeto:
